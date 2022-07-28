@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Projects</title>
+<style type="text/css">
+body {
+	background-color: #FFF;
+}
+body,td,th {
+	color: #000;
+	font-size: 16px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+#MyProj {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+}
+.MyProj {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-style: normal;
+}
+a:link {
+	text-decoration: none;
+	color: #06F;
+}
+a:visited {
+	text-decoration: none;
+	color: #06F;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+.MyProj1 {font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+}
+.univ {font-family: verdana, arial, helvetica;
+	font-size :14pt;
+}
+.univ {color:black;
+}
+.MyProj2 {font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-style: normal;
+}
+.personpage {font-family: Georgia, "Times New Roman", Times, serif;
+}
+.Note {
+	color: #F00;
+}
+</style>
+</head>
+
+<body>
+<table width="1022" border="0" align="center">
+  <tr>
+    <td width="4" rowspan="2" bgcolor="#FFFFFF">&nbsp;  </td>
+    <td colspan="2" align="center" bgcolor="#FFFFFF"><h1>Efficient Illuminant Estimation for Color Constancy Using Grey Pixels</h1>
+      <h3>Kai-Fu Yang, Shao-Bing Gao, Yong-Jie Li *</h3>
+      <p><strong><br />
+        University of Electronic Science and Technology of China<br />
+      </strong></p>
+      <hr /></td>
+    <td width="4" rowspan="2" bgcolor="#FFFFFF"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+    <p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="left" bgcolor="#FFFFFF"><h3>Abstract</h3>
+<p>  Illuminant estimation is a key step for computational color constancy. Instead of using the grey world or grey edge assumptions, we propose in this paper a novel method for illuminant estimation by using the information of grey pixels detected in a given color-biased image. The underlying hypothesis is that most of the natural images include some detectable pixels that are at least approximately grey, which can be reliably utilized for illuminant estimation. We first validate our assumption through comprehensive statistical evaluation on diverse collection of datasets and then put forward a novel grey pixel detection method based on the illuminant-invariant measure (IIM) in three logarithmic color channels. Then the light source color of a scene can be easily estimated from the detected grey pixels. Experimental results on four benchmark datasets (three recorded under single illuminant and one under multiple illuminants) show that the proposed method outperforms most of the state-of-the-art color constancy approaches with the inherent merit of low computational cost.</p><p></p></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td colspan="2" rowspan="2" align="left" bgcolor="#FFFFFF"><hr />
+      <h2>Results
+    </h2>
+      <h2><img src="Pics/GPSI.jpg" width="1000" height="370" /></h2>
+    <p>Figure: Results of several algorithms on the selected images of the SFU indoor dataset (the first row) and the color-checker dataset (the second to fourth rows). The angular error is indicated on the lower left corner of each image.</p></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="29">&nbsp;</td>
+    <td width="473" align="center" bgcolor="#FFFFFF"><p><img src="Pics/GPMI.jpg" alt="" width="450" height="350" /></p>
+    <p>Figure : Results of on the sevaral images with multiple illuminants.</p></td>
+    <td width="523" align="center" valign="bottom" bgcolor="#FFFFFF"><p><img src="Pics/GPMI-ER.jpg" width="500" height="270" /></p>
+    <p>Table: Performance of various methods on multi-illuminant dataset.</p></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td colspan="2" align="left" bgcolor="#FFFFFF"><p></p>
+      <hr />
+      <h3>Citation &amp; Download</h3>
+      <ol>
+        <li><span class="MyProj"><span class="personpage"><strong>Kai-Fu Yang, Shao-Bing Gao, </strong> <strong>Yong-Jie Li*.</strong></span> Efficient Illuminant Estimation for Color Constancy Using Grey Pixels. <em>IEEE Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>),</em> <span class="personpage">2015. </span><a href="../resource/papers/Yang_CVPR2015_GreyPixels-Correction.pdf">[pdf]</a> <a href="data/cvpr2015/GPconstancy.rar">[code]</a></span> <a href="../resource/papers/Yang-CVPR2015-ExtAbstract.pdf">[Ext-abstract]</a></li>
+      </ol>
+      <h3>&nbsp;</h3>
+      <h3><span class="Note"><em>* Correction * </em>:  </span><span class="MyProj">There are some errors in Equation (5) and (6).</span></h3>
+<p><img src="Pics/GP-corr.jpg" width="1000" height="200" /></p>
+      <p>&nbsp;</p>
+<hr />
+      <h3>Reference:</h3>
+      <ol>
+        <li>A. Gijsenij, T. Gevers, and J. Van De Weijer, &quot;Computationalcolor constancy: Survey and experiments,&quot; <em>IEEE TIP, vol. 20,no. 9, pp. 2475–2489, 2011.</em></li>
+        <li>Foster, D.H.: &quot;Color constancy.&quot; <em>Vision Research 51(7), 674–700,2011.</em></li>
+        <li>Gao, S., Yang, K., Li, C., Li, Y.:&quot; A color constancy model with double-opponency mechanisms.&quot;<em> In: Proceedings of IEEE International Conference on Computer Vi-sion (ICCV), pp. 929–936, 2013.</em></li>
+        <li><span class="MyProj2">Shaobing Gao, Wangwang Han, Kaifu Yang, Chaoyi Li, Yongjie Li*<strong>.</strong> &quot;Efficient Color Constancy with Local Surface Reflectance Statistics.&quot;<em> ECCV, Part II, LNCS 8690<em><em>, </em></em>PP.158-173, <em>2014</em></em></span></li>
+      </ol>
+<hr /></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td rowspan="2" align="center"><p>&nbsp;</p></td>
+    <td colspan="2" align="center"><h3>Back to<a href="computation_projects.html"> <strong>ViCBiC</strong> Projects Page</a></h3></td>
+    <td rowspan="2" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><hr />latest update：  02-Jun-2015</td>
+  </tr>
+</table>
+</body>
+</html>

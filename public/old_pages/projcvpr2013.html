@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Projects</title>
+<style type="text/css">
+body {
+	background-color: #FFF;
+}
+body,td,th {
+	color: #000;
+	font-size: 16px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+#MyProj {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+}
+.MyProj {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-style: normal;
+}
+a:link {
+	text-decoration: none;
+	color: #06F;
+}
+a:visited {
+	text-decoration: none;
+	color: #06F;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+.MyProj1 {font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+}
+.univ {font-family: verdana, arial, helvetica;
+	font-size :14pt;
+}
+.univ {color:black;
+}
+.MyProj2 {font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-style: normal;
+}
+.MyProj11 {	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-style: normal;
+}
+</style>
+</head>
+
+<body>
+<table width="100%" border="0" align="center">
+  <tr>
+    <td width="15%" rowspan="3" bgcolor="#FFFFFF">&nbsp;  </td>
+    <td align="center" bgcolor="#FFFFFF"><h1>Boundary Detection Using Color-Opponency</h1>
+      <h3>Kaifu Yang, Shaobing Gao, Chaoyi Li, Yongjie Li *</h3>
+      <p><strong><br />
+        University of Electronic Science and Technology of China<br />
+        Shanghai Institutes for Biological Sciences, CAS</strong></p>
+      <hr /></td>
+    <td width="15%" rowspan="3" bgcolor="#FFFFFF"><p>&nbsp;</p>
+  <p>&nbsp;</p>
+    <p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td align="left" bgcolor="#FFFFFF"><h3>Abstract</h3>
+<p>  Brightness and color are two basis visual features integrated by the human visual system (HVS) to gain a better understanding of color natural scenes. Aiming to combine these two cues to maximize the reliability of boundary detection in natural scenes, this work proposes a new framework based on the color-opponent mechanisms of a certain type of color-sensitive double-opponent (DO) cells in the primary visual cortex (V1) of HVS. This type of DO cells has oriented receptive field (RF) with both chromatically and spatially opponent structure. The proposed framework is a feedforward hierarchical model, which has direct counterpart to the color-opponent mechanisms involved in from the retina to V1. In addition, we employ the spatial sparseness constraints (SSC) of neural responses to further suppress the unwanted edges of texture elements. Experiment results show that the DO cells we modeled can flexibly capture both the structured chromatic and achromatic boundaries of salient objects in complex scenes when the cone inputs to DO cells are unbalanced. Meanwhile, SSC operator further improves the performance by suppressing redundant texture edges. With competitive contour detection accuracy, the proposed model has the additional advantage of quite simple implementation with low computational cost.</p></td>
+  </tr>
+  <tr>
+    <td height="30" align="center" bgcolor="#FFFFFF"><p></p>
+    <p><img src="Pics/CORFs.jpg" width="800" height="120" /></p>
+    <p></p>
+    <p>The receptive fields of single-opponent cells of Type I (a) and Type II (b) in RGC and LGN levels, and double-opponent cells in V1 with concentric 
+      RF(c) and oriented double-opponent cells in V1 with side-by-side spatially antagonistic regions with unbalanced cone weights (d). (e) An illustration to explain that the center-only RF of Type II in LGN is constructed by differencing two center-surround ganglion cells.</p>
+    <p></p></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td rowspan="3" align="left" bgcolor="#FFFFFF"><hr />
+      <h3>Results      </h3>
+<h2><img src="Pics/SCO2.jpg" width="1000" height="530" /></h2>
+    <p>Figure: Comparisons of SCO with various cone-input weights. The last column presents the F-measure of each boundary map listed in the third to eighth columns. The optimal results (marked by black bold rectangle) correspond to the maximum of F-measure.</p>
+<p>&nbsp;</p>
+    <p><img src="Pics/SCO3.jpg" width="1000" height="400" /></p>
+    <p><br />
+      Figure: Some examples compared with <em>Pb (Martin et al. PAMI, 2004)</em>. The thresholds used here correspond to the maximal <em>F-measure</em> for each image.</p>
+    <hr /></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="15%">&nbsp;</td>
+    <td width="15%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="29">&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td align="left" bgcolor="#FFFFFF"><h3>Citation &amp; Download</h3>
+      <ol>
+        <li>K<span class="MyProj11">ai-Fu Yang, Shao-Bing Gao, Ce-Feng Guo, Chao-Yi Li,  Yong-Jie Li*. </span><span class="MyProj11">Boundary Detection Using Double-Opponency and Spatial Sparseness Constraint.<em> IEEE Trans. Image Processing (<strong>TIP</strong>), 24(8):2565-2578, 2015</em></span> <a href="../resource/papers/Yang_TIP2015.pdf">[pdf]</a> <a href="data/tip2015/SCOboundary.rar">[code-v2]</a> <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7091908&amp;tag=1">[published link]</a></li>
+      </p>  <li><span class="MyProj">Kaifu Yang, Shaobing Gao, Chaoyi Li, Yongjie Li*. <strong>&quot;</strong>Efficient Color Boundary Detection with Color-opponent Mechanisms&quot;,<em><strong>CVPR</strong>, pp.2810-2817，2013.</em> <a href="../resource/papers/Yang_CVPR2013_Final.pdf">[pdf] </a><a href="BibTex/Yang2013CVPR.html">[bib] </a><a href="data/cvpr2013/COBoundary.rar">[code-v1]</a> <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6619206">[published link] </a><a href="../resource/papers/杨开富-CVPR2013-基于视觉颜色拮抗特性的轮廓检测模型.pdf">[中文版]</a></span></li>
+      </ol>
+      <hr />
+      <h3>Reference:</h3>
+      <ol>
+        <li>R. Shapley and M. Hawken, &quot;Color in the cortex: Single-and
+          double-opponent cells,&quot; <em>Vision Research, vol. 51, pp.
+        701-717, 2011.</em></li>
+        <li>B. R. Conway, et al., &quot;Advances in color science: from retina 
+          to behavior,&quot; <em>The Journal of Neuroscience, vol. 30, pp.
+        14955-14963, 2010.</em></li>
+        <li>D. R. Martin, C. C. Fowlkes, and J. Malik, &quot;Learning to detect natural 
+          image boundaries using local brightness, color, and texture cues,&quot;<em> IEEE
+            Trans. Pattern Anal. Mach. Intell., vol. 26, no. 5, pp. 530–549, 2004.</em></li>
+        <li>P. Arbelaez, M. Maire, C. Fowlkes, and J. Malik, &quot;Contour 
+          detection and hierarchical image segmentation,&quot; <em>IEEE Trans.
+            on PAMI, vol. 33, pp. 898 - 916, 2011.</em></li>
+      </ol>
+<hr /></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td rowspan="2" align="center"><p>&nbsp;</p></td>
+    <td align="center"><h3>Back to<a href="computation_projects.html"> <strong>ViCBiC</strong> Projects Page</a></h3></td>
+    <td rowspan="2" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center"><hr />latest update：  02-Jun-2015</td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,116 @@
+{
+  "visualNeuralMechanism": {
+    "title": "Visual Neural Mechanism @ UESTC",
+    "researchInterests": [
+      "Neural Coding",
+      "Electrophysiology",
+      "Optical Imaging"
+    ],
+    "publications": [
+      {
+        "img": "../resource/imgs/ChengkeVR.jpg",
+        "paperId": 2014982,
+        "description": "The spatial summation of excitation and inhibition determines the final output of neurons in the cat V1. To characterize the spatial extent of the excitatory classical receptive field (CRF) and inhibitory non-classical receptive field (nCRF) areas, we examined the spatial summation properties of 169 neurons in cat V1 at high (20–90%) and low (5–15%) stimulus contrasts. Three categories were classified based on the difference in the contrast dependency of the surround suppression. We discovered that the three categories significantly differed in CRF size, peak firing rate, and the proportion of simple/complex cell number. The classification of simple and complex cells was determined at both high and low contrasts. While the majority of V1 neurons had stable modulation ratios in their responses, 10 cells (6.2%) in our sample crossed the classification boundary under different stimulus contrasts. No significant difference was found in the size of the CRF between simple and complex cells. Further comparisons in each category determined that the CRFs for complex cells were significantly larger than those for simple cells in category type I neurons, with no significant differences between simple and complex cells in category type II and type III neurons. In addition, complex cells have higher peak firing rates than simple cells."
+      },
+      {
+        "img": "../resource/imgs/xu.jpg",
+        "paperId": 2014972,
+        "description": "The orientation tuning properties of the non-classical receptive field (nCRF or \"surround\") relative to that of the classical receptive field (CRF or \"center\") were tested for 119 neurons in the cat primary visual cortex (V1). The stimuli were concentric sinusoidal gratings generated on a computer screen with the center grating presented at an optimal orientation to stimulate the CRF and the surround grating with variable orientations stimulating the nCRF. Based on the presence or absence of surround suppression, measured by the suppression index at the optimal orientation of the cells, we subdivided the neurons into two categories: surround-suppressive (SS) cells and surround-non-suppressive (SN) cells. When stimulated with an optimally oriented grating centered at CRF, the SS cells showed increasing surround suppression when the stimulus grating was expanded beyond the boundary of the CRF, whereas for the SN cells, expanding the stimulus grating beyond the CRF caused no suppression of the center response. For the SS cells, strength of surround suppression was dependent on the relative orientation between CRF and nCRF: an iso-orientation grating over center and surround at the optimal orientation evoked strongest suppression and a surround grating orthogonal to the optimal center grating evoked the weakest or no suppression. By contrast, the SN cells showed slightly increased responses to an iso-orientation stimulus and weak suppression to orthogonal surround gratings. This iso-/orthogonal orientation selectivity between center and surround was analyzed in 22 SN and 97 SS cells, and for the two types of cells, the different center-surround orientation selectivity was dependent on the suppressive strength of the cells. We conclude that SN cells are suitable to detect orientation continuity or similarity between CRF and nCRF, whereas the SS cells are adapted to the detection of discontinuity or differences in orientation between CRF and nCRF."
+      },
+      {
+        "img": "../resource/imgs/ChengkeCC.jpg",
+        "paperId": 2013992,
+        "description": "In area V1 of cat and monkey, there is a surround region beyond the classical receptive field (CRF) which alone is unresponsive but may modulate the cell's response. This field is referred to as the \"nonclassical receptive field\" (nCRF). It has been reported in monkey that the extent of CRF and/or nCRF of V1 neurons is not fixed but varies with stimulus contrast. We reexamined the contrast dependence of V1 neurons in cat to determine whether this differs from previous studies in macaque. By fitting the spatial summation curves obtained at different contrasts with a difference of Gaussians model, we estimated quantitatively the effect of contrast on the spatial extent of the CRF and nCRF as well as the strength of surround suppression. Our results showed that both the CRF and nCRF expanded at low contrast, but the expansion is more marked for the CRF than for the nCRF. Although the effect of contrast on surround suppression was varied, the overall suppression increased significantly at high contrast. Moreover, the contrast-dependent change in the extent of CRF is independent of the change in suppression strength. Overall, our results in cat are in agreement with those obtained in macaque money."
+      }
+    ]
+  },
+  "visualCognition": {
+    "title": "Visual Cognition @ UESTC",
+    "researchInterests": [
+      "Visual Perception",
+      "Attention",
+      "Eye movement"
+    ],
+    "publications": [
+      {
+        "img": "../resource/imgs/GXjov.gif",
+        "paperId": 2015942,
+        "description": "Microsaccades (MSs) are small eye movements that occur during attempted visual fixation. While most studies concerning MSs focus on their roles in visual processing, some also suggest that the MS rate can be modulated by the amount of mental exertion involved in nonvisual processing. The current study focused on the effects of task difficulty on MS rate in a nonvisual mental arithmetic task. Experiment 1 revealed a general inverse relationship between MS rate and subjective task difficulty. During Experiment 2, three task phases with different requirements were identified: during calculation (between stimulus presentation and response), postcalculation (after reporting an answer), and a control condition (undergoing a matching sequence of events without the need to make a calculation). MS rate was observed to approximately double from the during-calculation phase to the postcalculation phase, and was significantly higher in the control condition compared to postcalculation. Only during calculation was the MS rate generally decreased with greater task difficulty. Our results suggest that the nonvisual cognitive processing can suppress MS rate, and that the extent of such suppression is related to the task difficulty."
+      },
+      {
+        "img": "../resource/imgs/Cao.jpg",
+        "paperId": 2014962,
+        "description": "The ability to identify the second of two targets (T2) is impaired if that target is presented less than ~500 ms after the first (T1). This transient deficit is known as attentional blink (AB). Previous studies have suggested that the magnitude of the AB effect can be modulated by manipulating the allocation of attentional resources to T1 or T2. However, few experiments have used Chinese characters and words to explore this phenomenon. The existence of lexical, semantic, phonological and morphological connections between Chinese characters has been well established, and understanding these connections may improve our knowledge of reading Chinese. In this study, we employed varying connections between T1 and T2 and examined how these connections modulate the AB effect. We found that the strongest AB was observed when the two Chinese characters were completely unrelated, while the AB was reduced when T1 and T2 were phonologically, orthographically or semantically related and was almost completely eliminated when T1 and T2 were united in a lexical phrase. The order of activation between Chinese characters was identified as follows: (a) lexical phrases, (b) semantic connection, (c) morphological connection, (d) phonological connection and (e) unrelated words."
+      },
+      {
+        "img": "../resource/imgs/Zhang.jpg",
+        "paperId": 2012992,
+        "description": "On average our eyes make 3–5 saccadic movements per second when we read, although their neural mechanism is still unclear. It is generally thought that saccades help redirect the retinal fovea to specific characters and words but that actual discrimination of information only occurs during periods of fixation. Indeed, it has been proposed that there is active and selective suppression of information processing during saccades to avoid experience of blurring due to the high-speed movement. Here, using a paradigm where a string of either lexical (Chinese) or non-lexical (alphabetic) characters are triggered by saccadic eye movements, we show that subjects can discriminate both while making saccadic eye movement. Moreover, discrimination accuracy is significantly better for characters scanned during the saccadic movement to a fixation point than those not scanned beyond it. Our results showed that character information can be processed during the saccade, therefore saccades during reading not only function to redirect the fovea to fixate the next character or word but allow pre-processing of information from the ones adjacent to the fixation locations to help target the next most salient one. In this way saccades can not only promote continuity in reading words but also actively facilitate reading comprehension."
+      },
+      {
+        "img": "../resource/imgs/Yao.jpg",
+        "paperId": 2011972,
+        "description": "Instantaneous object discrimination and categorization are fundamental cognitive capacities performed with the guidance of visual attention. Visual attention enables selection of a salient object within a limited area of the visual field; we referred to as \"field of attention\" (FA). Though there is some evidence concerning the spatial extent of object recognition, the following questions still remain unknown: (a) how large is the FA for rapid object categorization, (b) how accuracy of attention is distributed over the FA, and (c) how fast complex objects can be categorized when presented against backgrounds formed by natural scenes. To answer these questions, we used a visual perceptual task in which subjects were asked to focus their attention on a point while being required to categorize briefly flashed (20 ms) photographs of natural scenes by indicating whether or not these contained an animal. By measuring the accuracy of categorization at different eccentricities from the fixation point, we were able to determine the spatial extent and the distribution of accuracy over the FA, as well as the speed of categorizing objects using stimulus onset asynchrony (SOA). Our results revealed that subjects are able to rapidly categorize complex natural images within about 0.1 s without eye movement, and showed that the FA for instantaneous image categorization covers a visual field extending 20°×24°, and accuracy was highest (>90%) at the center of FA and declined with increasing eccentricity. In conclusion, human beings are able to categorize complex natural images at a glance over a large extent of the visual field without eye movement."
+      },
+      {
+        "img": "../resource/imgs/Cai.jpg",
+        "paperId": 2012982,
+        "description": "Several types of suppression phenomena have been observed in the visual system. For example, the ability to detect a target stimulus is often impaired when the target is embedded in a high-contrast surround. This contextual modulation, known as surround suppression, was formerly thought to occur only in the periphery. Another type of suppression phenomena is interocular suppression, in which the sensitivity to a monocular target is reduced by a superimposed mask in the opposite eye. Here, we explored how the two types of suppression operating across different spatial regions interact with one another when they simultaneously exert suppressive influences on a common target presented at the fovea. In our experiments, a circular target grating presented to the fovea of one eye was suppressed interocularly by a noise pattern of the same size in the other eye. The foveal stimuli were either shown alone or surrounded by a monocular annular grating. The orientation and eye-of-origin of the surround grating were varied. We found that the detection of the foveal target subjected to interocular suppression was severely impaired by the addition of the surround grating, indicating strong surround suppression in the fovea. In contrast, when the interocular suppression was released by superimposing a binocular fusion ring onto both the target and the dichoptic mask, the surround suppression effect was found to be dramatically decreased. In addition, the surround suppression was found to depend on the contrast of the dichoptic noise with the greatest surround suppression effect being obtained only when the noise contrast was at an intermediate level. These findings indicate that surround suppression and interocular suppression are not independent of each other, but there are strong interactions between them. Moreover, our results suggest that strong surround suppression may also occur at the fovea and not just the periphery."
+      }
+    ]
+  },
+  "visualComputation": {
+    "title": "Visual Computation @ UESTC",
+    "researchInterests": [
+      "Brain-inspired Computer Vision",
+      "Computational Neurosicence"
+    ],
+    "publications": [
+      {
+        "img": "../resource/imgs/Salient.jpg",
+        "paperId": 2016962,
+        "description": ""
+      },
+      {
+        "img": "../resource/imgs/DisCC.jpg",
+        "paperId": 2016952,
+        "description": ""
+      },
+      {
+        "img": "../resource/imgs/DeHaze.jpg",
+        "paperId": 2015992,
+        "description": ""
+      },
+      {
+        "img": "../resource/imgs/GP.jpg",
+        "paperId": 2015991,
+        "description": ""
+      },
+      {
+        "img": "../resource/imgs/CC.jpg",
+        "paperId": 2015932,
+        "description": "\"A Color Constancy Model with Double-Opponency Mechanisms\", ICCV, 2013. (Oral, acceptance rate: 2.52%)\n\nShao-Bing Gao, Kai-Fu Yang, Chao-Yi Li, Yong-Jie Li"
+      },
+      {
+        "img": "../resource/imgs/CO.jpg",
+        "paperId": 2015952,
+        "description": ""
+      },
+      {
+        "img": "../resource/imgs/TIP2014.jpg",
+        "paperId": 2014992,
+        "description": ""
+      },
+      {
+        "img": "../resource/imgs/ECCV2014.jpg",
+        "paperId": 2014981,
+        "description": ""
+      },
+      {
+        "img": "../resource/imgs/AI.jpg",
+        "paperId": 2011992,
+        "description": ""
+      }
+    ]
+  }
+}

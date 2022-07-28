@@ -1,0 +1,104 @@
+{
+  "description": "Visual perception & cognition is one of the most active areas in the field of brain research. Psychologists, neuroscientists, opthamologists and optometrists, computer scientists, and engineers all have interests in the specific sides of the subject. The research interests of Center for Visual Cognition and Brain-Inspired Computation (ViCBiC) are to understand the physiological mechanisms of visual neural coding, perception, cognition and computation at different levels, and to build brain-like or brain-inspired computational models available to the fields of both experimental neuroscience and computer vision.",
+  "belong_to": [
+    {
+      "institution": "Key Laboratory for NeuroInformation of Ministry of Education",
+      "link": "http://www.neuro.uestc.edu.cn"
+    },
+    {
+      "institution": "School of Life Science and Technology (SLST)",
+      "link": "http://www.life.uestc.edu.cn"
+    },
+    {
+      "institution": "University of Electronic Science and Technology of China (UESTC)",
+      "link": "http://www.uestc.edu.cn"
+    }
+  ],
+  "address": "No.4, Section 2, North Jianshe Road, Chengdu, China. 610054",
+  "research_topics":[
+    "Visual electrophysiology (single electrode / multiple electrode array neural recording)",
+    "Optical Imaging/EEG/ERP based studies of local networks of visual cortex",
+    "Eye-tracker and mirror stereoscope based studies of visual mechanisms",
+    "Computational modeling of the low visual stage mechanisms and the application in image processing",
+    "Computational modeling of the intermediate and higher visual stage mechanisms and their applications"
+  ],
+  "research_groups": [
+    {
+      "group": "Visual Neural Mechanism",
+      "link": "/researches/neuralMechanism",
+      "projects": [
+        "Single electrode based intracellular and extracellular recording for studying the properties of classical RF (CRF) and non-CRF",
+        "Multiple electrode array based study of neural population",
+        "In-vivo optical imaging of cortical architecture and dynamics",
+        "ERP based motion-in-depth perception and collision estimation"
+      ]
+    },
+    {
+      "group": "Visual Cognition",
+      "link": "/researches/visualCognition",
+      "projects": [
+        "Neural mechanisms of visual searching and selective attention",
+        "Micro-saccade, saccade and smooth pursuit",
+        "Binocular vision (Binocular rivalry, stereovision, etc)"
+      ]
+    },
+    {
+      "group": "Visual Computation",
+      "link": "/researches/visualComputation",
+      "projects": [
+        "Computational Modeling of the non-classical receptive field (nCRF) of retina, LGN and V1 neurons and the applications in image denoising, enhancement, color constancy and contour detection",
+        "Feature binding and contour and shape integration model",
+        "Selective attention and active vision models"
+      ]
+    }
+  ],
+  "last_news": [
+    {
+      "date": "2019.08",
+      "content": "Congratulations to Shaobing Gao's paper being accepted by TIP, 2019",
+      "link": ""
+    },{
+      "date": "2019.08",
+      "content": "Congratulations to Shaobing Gao's paper being accepted by OPT EPRESS, 2019",
+      "link": ""
+    },{
+      "date": "2019.04",
+      "content": "Congratulations to Shaobing Gao's paper being accepted by TIP, 2019",
+      "link": ""
+    },{
+      "date": "2018.02",
+      "content": "Congratulations to Kaifu Yang's paper being accepted by TCSVT, 2018",
+      "link": ""
+    },
+    {
+      "date": "2017.10",
+      "content": "Congratulations to Tao Deng's paper being accepted by TITS, 2017",
+      "link": ""
+    },
+    {
+      "date": "2016.06",
+      "content": "Congratulations to Kaifu Yang's paper being accepted by TIP, 2016",
+      "link": ""
+    },
+    {
+      "date": "2016.02",
+      "content": "Congratulations to Xianshi Zhang's paper being accepted by TIP, 2016",
+      "link": ""
+    },
+    {
+      "date": "2015.11",
+      "content": "Congratulations to Xianshi Zhang's paper being accepted by Frontiers in Compute Neuroscience, 2015",
+      "link": ""
+    },
+    {
+      "date": "2015.09",
+      "content": "Congratulations to Tao Deng's paper being accepted by TITS, 2015",
+      "link": ""
+    },
+    {
+      "date": "2015.04",
+      "content": "Congratulations to Kaifu Yang's paper being accepted by TIP, 2015",
+      "link": ""
+    }
+  ]
+}
